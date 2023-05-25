@@ -1,71 +1,106 @@
-body
-{
+body {
     background-color: black;
     color: white;
     margin: 0;
     padding: 0;
 }
-.navbar{
+
+.navbar {
     align-items: center;
     border: 2px solid rgb(236, 236, 144);
+    border-collapse: collapse;
 }
-.nav-items{
+
+.nav-items {
+    font-family: 'Righteous', cursive;  
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-     box-sizing: border-box;
-     justify-content: center;
+    box-sizing: border-box;
+    justify-content: center;
 }
 
-li a{
+li a {
     color: white;
 
 }
 
 .nav-item {
-     text-decoration: none;
-margin:0 12px;
- }
- 
+    text-decoration: none;
+    margin: 0 12px;
+}
 
-.active{
+
+.active {
     color: rgb(255, 178, 24);
 }
 
 /* ----------------- homepage image---------------- */
-.profile{
-    height:300px;
+.profile {
+    height: 480px;
     width: auto;
-    border-radius: 100%;
-    margin:20px;
+    /* border-radius: 100%; */
+    margin: 20px;
     box-sizing: border-box;
 
 }
-.container{
+
+.container {
     box-sizing: border-box;
-    margin: 0 5%;
-    border: 2px solid green;
+    margin: 0 4%;
+    /* border: 2px solid green; */
+    /* border-collapse: collapse; */
     height: 100vh;
 }
 
+.content {
+    padding: 1%;
+}
+
 /* -------------------- custom classes ------------------ */
-.flex{
+.flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 
 }
-.line-height-0{
+
+.line-height-0 {
     line-height: 0;
 }
-.center{
+
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.description{
+.description {
+    width: 300px;
     box-sizing: border-box;
-    background-color: aqua;
-    flex-grow: 3;
+    flex-grow: 2;
+    padding: 5px;
+    text-align: justify;
+
+}
+
+p {
+    text-indent: 5%;
+    line-height: 1.5em;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h2 {
+    font-size: 35px;
+    font-family: 'Righteous', cursive;
+}
+h3{
+    font-size: 28px;
+    font-family: 'Righteous', cursive;
+}
+marquee{
+    background-color: rgb(225, 225, 183);
+    color: black;
+    padding: 10px 0;
 }
