@@ -1,23 +1,71 @@
+body
+{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
 .navbar{
-    display: flex;
-    background-color: rgb(248, 252, 252);
-    }
-
- .nav-items {
-    display: flex;
+    align-items: center;
+    border: 2px solid rgb(236, 236, 144);
+}
+.nav-items{
     list-style: none;
-}   
+    display: flex;
+    flex-wrap: wrap;
+     box-sizing: border-box;
+     justify-content: center;
+}
+
+li a{
+    color: white;
+
+}
 
 .nav-item {
      text-decoration: none;
-color: black;
 margin:0 12px;
  }
  
- .nav-item :hover{
-    color:blue
- }
 
 .active{
     color: rgb(255, 178, 24);
+}
+
+/* ----------------- homepage image---------------- */
+.profile{
+    height:300px;
+    width: auto;
+    border-radius: 100%;
+    margin:20px;
+    box-sizing: border-box;
+
+}
+.container{
+    box-sizing: border-box;
+    margin: 0 5%;
+    border: 2px solid green;
+    height: 100vh;
+}
+
+/* -------------------- custom classes ------------------ */
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.line-height-0{
+    line-height: 0;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description{
+    box-sizing: border-box;
+    background-color: aqua;
+    flex-grow: 3;
 }
